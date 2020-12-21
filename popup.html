@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            background-color: rgb(238, 238, 238);
+            min-width: 280px;
+            min-height: 300px;
+            padding: 10px;
+        }
+        label{
+            display: block;
+            margin: 10px 0px;
+        }
+        input{
+            display: block;
+            width: 260px;
+            padding: 8px;
+        }
+        button{
+            margin: 14px 0px;
+            padding: 8px 14px;
+            float: right;
+        }
+        h2{
+            margin-bottom: 28px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <form id="login_form">
+
+            <h2>Authentication required</h2>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="pass" required>
+
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="js/popup.js"></script>
+
+</body>
+
+</html>
